@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwURL",
+        "repositoryURL": "https://github.com/cmtrounce/SwURL",
+        "state": {
+          "branch": null,
+          "revision": "e035d4875ff788403e7e137117b2bf3ee35ec961",
+          "version": "0.4.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -11,6 +11,7 @@
 		B872987D27AD0A9400E67D7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872987C27AD0A9400E67D7F /* ContentView.swift */; };
 		B872987F27AD0A9600E67D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B872987E27AD0A9600E67D7F /* Assets.xcassets */; };
 		B872988227AD0A9600E67D7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B872988127AD0A9600E67D7F /* Preview Assets.xcassets */; };
+		B8F23BA427AE6E9C0027FAA4 /* SwURL in Frameworks */ = {isa = PBXBuildFile; productRef = B8F23BA327AE6E9C0027FAA4 /* SwURL */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F23BA427AE6E9C0027FAA4 /* SwURL in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = AniWall;
+			packageProductDependencies = (
+				B8F23BA327AE6E9C0027FAA4 /* SwURL */,
+			);
 			productName = AniWall;
 			productReference = B872987727AD0A9400E67D7F /* AniWall.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = B872986E27AD0A9400E67D7F;
+			packageReferences = (
+				B8F23BA227AE6E9C0027FAA4 /* XCRemoteSwiftPackageReference "SwURL" */,
+			);
 			productRefGroup = B872987827AD0A9400E67D7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -341,6 +349,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B8F23BA227AE6E9C0027FAA4 /* XCRemoteSwiftPackageReference "SwURL" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cmtrounce/SwURL";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B8F23BA327AE6E9C0027FAA4 /* SwURL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8F23BA227AE6E9C0027FAA4 /* XCRemoteSwiftPackageReference "SwURL" */;
+			productName = SwURL;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B872986F27AD0A9400E67D7F /* Project object */;
 }

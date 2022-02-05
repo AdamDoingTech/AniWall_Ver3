@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import SwURL
 
 struct ContentView: View {
     var body: some View {
+        VStack {
             GeometryReader { geo in
                 Image("Image3")
                     .resizable()
@@ -23,7 +25,7 @@ struct ContentView: View {
             }
         }
     }
-
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
@@ -31,3 +33,6 @@ struct ContentView_Previews: PreviewProvider {
           
     }
 }
+
+
+//let imageArray = ["Image1", "Image2", "Image3"]
