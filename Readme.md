@@ -11,6 +11,7 @@ Project Overview:
 
 Contribution Guidelines:
     * Feedback is welcome (To improve the App).
+    
     * No forking allowed in the meantime.
 
 See you on the other side! 👋🏾
