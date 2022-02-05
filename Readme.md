@@ -4,14 +4,13 @@
 -- Hello, this is Adam from Atom Lab X 👨🏾‍💻
 
 Project Overview:
-    * 3nd Ver of Anime Wall Paper App (Built Using SwiftUI From Scratch).
-    * I worked on the App for a bit before adding it to github, so the initial commit (Have some line of code).
-    * It is a fun project (I learn as I go).
-    * Why Ver 3? - The Second Edition was good, but I wanted to do a newer version using SwiftUI only.
+    * 3nd Ver of Anime Wall Paper App (Built Using SwiftUI From Scratch).<br>
+    * I worked on the App for a bit before adding it to github, so the initial commit (Have some line of code).<br>
+    * It is a fun project (I learn as I go).<br>
+    * Why Ver 3? - The Second Edition was good, but I wanted to do a newer version using SwiftUI only.<br>
 
 Contribution Guidelines:
-    * Feedback is welcome (To improve the App).
-    
+    * Feedback is welcome (To improve the App).<br>
     * No forking allowed in the meantime.
 
 See you on the other side! 👋🏾
