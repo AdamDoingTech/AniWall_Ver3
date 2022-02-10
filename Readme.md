@@ -16,5 +16,5 @@ Contribution Guidelines:<br>
 See you on the other side! 👋🏾
 
 Side note:<br>
-You can find me on Youtube <a href="https://www.youtube.com/channel/UC3a4IUMJzJZCuxm8iOcTrJA">@Atom Lab X</a> or Twitter <a href="https://twitter.com/AtomLabX">@AtomLabX and here is my website</a><br>Also, here is my <a href="https://twitter.com/AtomLabX">Website/Portfolio</a>.
+You can find me on Youtube <a href="https://www.youtube.com/channel/UC3a4IUMJzJZCuxm8iOcTrJA">@Atom Lab X</a> or Twitter <a href="https://twitter.com/AtomLabX">@AtomLabX and here is my website</a><br>Also, here is my <a href="https://atomlabx.github.io">Website/Portfolio</a>.
 
