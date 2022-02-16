@@ -10,7 +10,7 @@ import SwURL
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack<Content: View> {
 //            GeometryReader { geo in
             ForEach(waifus) { Waifu in
 //                    Image("Image3")

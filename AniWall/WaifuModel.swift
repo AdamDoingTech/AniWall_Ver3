@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct ToDo: Decodable {
-    var url: String
+struct ToDo: Identifiable, Decodable {
+    var url: URL
   
   enum CodingKeys: String, CodingKey {
     case isComplete = "completed"
