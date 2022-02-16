@@ -5,7 +5,6 @@
 
 Project Overview:<br>
     * 3nd Ver of Anime Wall Paper App (Built Using SwiftUI From Scratch).<br>
-    * I worked on the App for a bit before adding it to github, so the initial commit (Have some line of code).<br>
     * It is a fun project (I learn as I go).<br>
     * Why Ver 3? - The Second Edition was good, but I wanted to do a newer version using SwiftUI only.<br>
 
