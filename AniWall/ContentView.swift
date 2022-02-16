@@ -13,15 +13,14 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                ZStack {
+                
                     Color.black
-                        .ignoresSafeArea()
                     AsyncImage(
                              url: URL(string: networkManager.imageModel?.url ?? ""),
                              content: { image in
                                  image.resizable()
-                                      .aspectRatio(contentMode: .fit)
-                                      .frame(maxWidth: 600, maxHeight: 800)
+                                      .aspectRatio(contentMode: .fill)
+                                      .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width)
                              },
                              placeholder: {
                                  ProgressView()
@@ -30,8 +29,7 @@ struct ContentView: View {
                         .onTapGesture {
                             networkManager.fetch()
                         }
-                }
-                .onAppear { networkManager.fetch() }
+                        .onAppear { networkManager.fetch() }
             }
         }
     }
