@@ -9,21 +9,29 @@ import SwiftUI
 import SwURL
 
 struct ContentView: View {
+    @ObservedObject var networkManager = NetworkManager()
     var body: some View {
-        VStack<Content: View> {
-//            GeometryReader { geo in
-            ForEach(waifus) { Waifu in
-//                    Image("Image3")
-                    Text("\(Waifu.url)")
-//                    .resizable()
-//                // Because I want the images to fill the whole screen no matter what the size =\is.
-//                    .scaledToFill()
-//                // in order to fill the screen to the edges.
-//                    .frame(maxWidth: .infinity)
-//                    .frame(maxHeight: .infinity)
-//                // The magic code snippit where, the safe ares is ignored in order to fill the screen as a whole.
-//                    .edgesIgnoringSafeArea(.all)
-//                    .frame(width: geo.size.width, height: geo.size.height)
+        NavigationView {
+            VStack {
+                ZStack {
+                    Color.black
+                        .ignoresSafeArea()
+                    AsyncImage(
+                             url: URL(string: networkManager.imageModel?.url ?? ""),
+                             content: { image in
+                                 image.resizable()
+                                      .aspectRatio(contentMode: .fit)
+                                      .frame(maxWidth: 600, maxHeight: 800)
+                             },
+                             placeholder: {
+                                 ProgressView()
+                             }
+                         )
+                        .onTapGesture {
+                            networkManager.fetch()
+                        }
+                }
+                .onAppear { networkManager.fetch() }
             }
         }
     }
@@ -32,8 +40,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-.previewInterfaceOrientation(.portrait)
-          
     }
 }
 

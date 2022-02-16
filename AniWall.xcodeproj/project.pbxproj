@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B856D35A27B10B220081AC17 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856D35927B10B220081AC17 /* ModelData.swift */; };
-		B856D35C27B10B790081AC17 /* WaifuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856D35B27B10B790081AC17 /* WaifuModel.swift */; };
+		B8194D3527BCA68A00E8C2EA /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8194D3427BCA68A00E8C2EA /* NetworkManger.swift */; };
+		B8194D3727BCA7A500E8C2EA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8194D3627BCA7A500E8C2EA /* Model.swift */; };
 		B856D35E27B10D000081AC17 /* WaifuData.json in Resources */ = {isa = PBXBuildFile; fileRef = B856D35D27B10CFF0081AC17 /* WaifuData.json */; };
 		B872987B27AD0A9400E67D7F /* AniWallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872987A27AD0A9400E67D7F /* AniWallApp.swift */; };
 		B872987D27AD0A9400E67D7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872987C27AD0A9400E67D7F /* ContentView.swift */; };
@@ -18,8 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B856D35927B10B220081AC17 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		B856D35B27B10B790081AC17 /* WaifuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaifuModel.swift; sourceTree = "<group>"; };
+		B8194D3427BCA68A00E8C2EA /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		B8194D3627BCA7A500E8C2EA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		B856D35D27B10CFF0081AC17 /* WaifuData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WaifuData.json; sourceTree = "<group>"; };
 		B872987727AD0A9400E67D7F /* AniWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B872987A27AD0A9400E67D7F /* AniWallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniWallApp.swift; sourceTree = "<group>"; };
@@ -61,8 +61,8 @@
 			children = (
 				B872987A27AD0A9400E67D7F /* AniWallApp.swift */,
 				B872987C27AD0A9400E67D7F /* ContentView.swift */,
-				B856D35927B10B220081AC17 /* ModelData.swift */,
-				B856D35B27B10B790081AC17 /* WaifuModel.swift */,
+				B8194D3427BCA68A00E8C2EA /* NetworkManger.swift */,
+				B8194D3627BCA7A500E8C2EA /* Model.swift */,
 				B872987E27AD0A9600E67D7F /* Assets.xcassets */,
 				B872988027AD0A9600E67D7F /* Preview Content */,
 				B856D35D27B10CFF0081AC17 /* WaifuData.json */,
@@ -155,10 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B856D35C27B10B790081AC17 /* WaifuModel.swift in Sources */,
+				B8194D3527BCA68A00E8C2EA /* NetworkManger.swift in Sources */,
 				B872987D27AD0A9400E67D7F /* ContentView.swift in Sources */,
 				B872987B27AD0A9400E67D7F /* AniWallApp.swift in Sources */,
-				B856D35A27B10B220081AC17 /* ModelData.swift in Sources */,
+				B8194D3727BCA7A500E8C2EA /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
