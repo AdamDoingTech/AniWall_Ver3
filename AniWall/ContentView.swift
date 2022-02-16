@@ -6,31 +6,77 @@
 //
 
 import SwiftUI
-import SwURL
+
 
 struct ContentView: View {
     @ObservedObject var networkManager = NetworkManager()
     var body: some View {
         NavigationView {
-            VStack {
+            ZStack(alignment: .bottom) {
+                AsyncImage(
+                    url: URL(string: networkManager.imageModel?.url ?? ""),
+                    content: { image in
+                        image.resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                            .ignoresSafeArea()
+                    },
+                    placeholder: {
+                        ProgressView()
+                    }
+                )
                 
-                    Color.black
-                    AsyncImage(
-                             url: URL(string: networkManager.imageModel?.url ?? ""),
-                             content: { image in
-                                 image.resizable()
-                                      .aspectRatio(contentMode: .fill)
-                                      .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width)
-                             },
-                             placeholder: {
-                                 ProgressView()
-                             }
-                         )
-                        .onTapGesture {
-                            networkManager.fetch()
+                LinearGradient(colors: [.clear, .black], startPoint: .top, endPoint: .bottom)
+                    .frame(height: 350)
+                
+                VStack {
+                    HStack {
+                        Spacer()
+                        Button {
+                            // The function here
+                        } label: {
+                            Image(systemName: "square.and.arrow.down.on.square.fill")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 65, height: 65)
+                                .foregroundStyle(.white)
+                                .padding(.bottom)
                         }
-                        .onAppear { networkManager.fetch() }
+                        Spacer()
+                        Button {
+                            // The function here
+                        } label: {
+                            Image(systemName: "heart.text.square.fill")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 55, height: 55)
+                                .foregroundStyle(.white)
+                                .padding(.bottom)
+                        }
+                        
+                        Spacer()
+                        Button {
+                            // The function here
+                        } label: {
+                            Image(systemName: "square.and.arrow.up.on.square.fill")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 65, height: 65)
+                                .foregroundStyle(.white)
+                                .padding(.bottom)
+                        }
+                        
+                        Spacer()
+                    }
+                    Spacer()
+                        .frame(width: 75, height: 75)
+                }
+                
             }
+            .onTapGesture {
+                networkManager.fetch()
+            }
+            .onAppear { networkManager.fetch() }
         }
     }
 }
