@@ -11,7 +11,6 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var networkManager = NetworkManager()
     var body: some View {
-        NavigationView {
             ZStack(alignment: .bottom) {
                 AsyncImage(
                     url: URL(string: networkManager.imageModel?.url ?? ""),
@@ -27,7 +26,7 @@ struct ContentView: View {
                 )
                 
                 LinearGradient(colors: [.clear, .black], startPoint: .top, endPoint: .bottom)
-                    .frame(height: 400)
+                    .frame(height: 450)
                 
                 VStack {
                     HStack {
@@ -35,12 +34,12 @@ struct ContentView: View {
                         Button {
                             // The function here
                         } label: {
-                            Image(systemName: "square.and.arrow.down.fill")
+                            Image(systemName: "square.and.arrow.down.on.square.fill")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(width: 65, height: 65, alignment: .bottomLeading)
+                                .frame(width: 55, height: 55, alignment: .bottomLeading)
                                 .foregroundStyle(.white)
-                                .padding(.bottom)
+//                                .padding(.bottom)
                         }
                         Spacer()
                     }
@@ -53,7 +52,6 @@ struct ContentView: View {
                 networkManager.fetch()
             }
             .onAppear { networkManager.fetch() }
-        }
     }
 }
 
