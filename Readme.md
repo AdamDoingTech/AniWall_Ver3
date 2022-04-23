@@ -6,6 +6,7 @@
 Project Overview:<br>
     * 3rd version of the Anime Wallpaper App (Built Using SwiftUI From Scratch).<br>
     * Video Showcase for the project <a href="https://atomlabx.github.io/Images/AniWall.mp4">Here </a>.
+    <br>
     * It is a fun project (I learn as I go).<br>
     * Why version 3? - the second version was good, but I wanted to do a newer version using SwiftUI only, because SwiftUI allow me to do margins/constraints more efficiently.<br>
 
