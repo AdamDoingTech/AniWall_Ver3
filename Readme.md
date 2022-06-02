@@ -1,8 +1,8 @@
-
-
-
 -- Hello, this is Adam from Atom Lab X 👨🏾‍💻
 
+App Objective:<br>
+    * Download Anime wallpapers and images, with NO ADS or data collected.<br>
+    
 Project Overview:<br>
     * 3rd version of the Anime Wallpaper App (Built Using SwiftUI From Scratch).<br>
     * For a video Showcase for the project <a href="https://atomlabx.github.io/Images/AniWall.mp4">click here</a>.<br>
@@ -17,4 +17,5 @@ See you on the other side! 👋🏾
 
 Side note:<br>
 You can find me on Youtube <a href="https://www.youtube.com/channel/UC3a4IUMJzJZCuxm8iOcTrJA">@Atom Lab X</a> or Twitter <a href="https://twitter.com/AtomLabX">@AtomLabX</a><br>Furthermore; here is my website <a href="https://AtomLabX.Dev">Website/Portfolio</a>.
+
 
