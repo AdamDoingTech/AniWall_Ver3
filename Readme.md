@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/AtomLabX/AniWall_Ver3">
-    <img src="Demo/AniWall.gif" alt="Anime Wallpapre Demo">
+    <img src="Demo/AniWall_Gif.gif" alt="Anime Wallpapre Demo">
   </a>
 
   <h3 align="center">AniWall</h3>
@@ -15,8 +15,9 @@
     
 
 ## IDEA BEHIND THE APP:
-As an Anime enthusicast, I wanted to build something to show my love for Anime, and serve the Anime community with.
-The main issue right now, with Anime wallpapres apps, is that they all have ads, and very hard or slow to use, while AniWall is none of that.
+As an Anime enthusiast, I wanted to build something to show my love for Anime, so I chose an Anime Wallpapers App.<br>
+Because all Anime Wallpaper Apps have ads. Also very challenging or slow to use.<br>
+Therefore, I built AniWall with no ads or data collected, with sleek UI/UX.<br>
 
 <!-- BUILT USING -->
 ## BUILT WITH
