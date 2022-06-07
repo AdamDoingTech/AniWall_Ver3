@@ -1,26 +1,24 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-<video controls>
-  <source src="Demo/AniWall.mp4" type="video/mp4">
-</video>
+  <a href="https://github.com/AtomLabX/AniWall_Ver3">
+    <img src="Demo/AniWall.gif" alt="Anime Wallpapre Demo">
   </a>
 
-  <h3 align="center">Anime Wallpapre App</h3>
+  <h3 align="center">AniWall</h3>
 
   <p align="center">
-    <samp>Anime Wallpapre App for iOS.</samp>
+    <samp>✨ Anime Wallpapres App for iOS. ✨</samp>
     <br>
+        <samp>✨ Soon on the Apple App Store ✨</samp>
     </p>
     
 
-## QUICK STARTING GUIDE:
-    1. OPEN AniWall.xcodeproj file using Xcode.
-    2. CHOOSE YOUR SIMULATOR (iPhone or iPad).
-    3. Hit Command + R.
-    4. Enjoy. 
+## IDEA BEHIND THE APP:
+As an Anime enthusicast, I wanted to build something to show my love for Anime, and serve the Anime community with.
+The main issue right now, with Anime wallpapres apps, is that they all have ads, and very hard or slow to use, while AniWall is none of that.
 
-<!-- BUILD USING -->
+<!-- BUILT USING -->
 ## BUILT WITH
 * Swift.
 * SwiftUI.
