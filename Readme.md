@@ -1,8 +1,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/AtomLabX/AniWall_Ver3">
-    <img src="Demo/AniWall_Demo.gif" alt="Anime Wallpapre Demo">
+<video controls>
+  <source src="Demo/AniWall.mp4" type="video/mp4">
+</video>
   </a>
 
   <h3 align="center">Anime Wallpapre App</h3>
@@ -14,13 +15,13 @@
     
 
 ## QUICK STARTING GUIDE:
-1. OPEN AniWall.xcodeproj file using Xcode.
-2. CHOOSE YOUR SIMULATOR (iPhone or iPad).
-3. Hit Command + R.
-4. Enjoy. 
+    1. OPEN AniWall.xcodeproj file using Xcode.
+    2. CHOOSE YOUR SIMULATOR (iPhone or iPad).
+    3. Hit Command + R.
+    4. Enjoy. 
 
 <!-- BUILD USING -->
-## BUILD WITH
+## BUILT WITH
 * Swift.
 * SwiftUI.
  
