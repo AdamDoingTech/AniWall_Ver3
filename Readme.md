@@ -5,7 +5,7 @@
     <img src="Demo/AniWall_Gif.gif" alt="Anime Wallpapre Demo">
   </a>
 
-  <h1 align="center">❤️ AniWall ❤️</h1>
+  <h3 align="center">❤️ AniWall ❤️</h3>
 
   <p align="center">
     <samp>✨Anime Wallpapres App for iOS✨</samp>
