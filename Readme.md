@@ -15,7 +15,7 @@
     
 
 ## REASONS BEHIND THE APP:
-As an Anime enthusiast, I use Anime Wallpapers alot!<br>
+As an Anime enthusiast, I use Anime Wallpapers a lot!<br>
 but all of them have ads, very challenging or slow to use.<br>
 Therefore, I built AniWall with no ads, blazing fast preformance, with a sleek design.<br>
 
