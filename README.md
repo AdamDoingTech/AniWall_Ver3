@@ -8,9 +8,9 @@
   <h3 align="center">❤️ AniWall ❤️</h3>
 
   <p align="center">
-    <samp>✨Anime Wallpapres App for iOS✨</samp>
+    <samp>✨ANIME WALLPAPRE APP FOR IOS✨</samp>
     <br>
-        <samp>✨Soon will be available on the Apple App Store✨</samp><br><br>
+        <samp>✨SOON WILL BE AVAILABLE ON THE APPLE APP STORE✨</samp><br><br>
   <img alt="App size" src="https://img.shields.io/github/repo-size/atomlabx/AniWall_Ver3?color=blue&label=app%20size&style=for-the-badge">
   <img alt="Repo top language" src="https://img.shields.io/github/languages/top/atomlabx/AniWall_Ver3?color=important&style=for-the-badge">
   <img alt="App issues" src="https://img.shields.io/bitbucket/issues-raw/atomlabx/AniWall_Ver3?color=important&style=for-the-badge">
@@ -24,8 +24,8 @@ Therefore, I built AniWall with no ads, blazing fast preformance, with a sleek d
 
 <!-- BUILT USING -->
 ## BUILT WITH
-* Swift.
-* SwiftUI.
+* SWIFT.
+* SWIFTUI.
  
 <!-- CONTRIBUTING GUIDELINES -->
 <!-- LICENSE -->
